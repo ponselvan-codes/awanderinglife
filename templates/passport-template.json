@@ -1,0 +1,37 @@
+{
+  "id": "PASS-XXXX",
+  "_comment_id": "Sequential ID like PASS-0006. Use the next available number.",
+  
+  "title": "",
+  "_comment_title": "Descriptive title of the philatelic event or exhibition",
+  
+  "event": "",
+  "_comment_event": "Official name of the event/exhibition, e.g., 'INDIPEX 2023'",
+  
+  "venue": "",
+  "_comment_venue": "Venue name where the event was held",
+  
+  "city": "",
+  "_comment_city": "City where the event was held",
+  
+  "state": "",
+  "_comment_state": "State where the event was held",
+  
+  "date": "",
+  "_comment_date": "Date of the event/seal impression, in YYYY-MM-DD format",
+  
+  "sealType": "",
+  "_comment_sealType": "Type of seal, e.g., 'Commemorative Seal', 'Special Event Seal', 'Exhibition Entry Seal', 'Special Cancellation'",
+  
+  "passportPage": "",
+  "_comment_passportPage": "Page number in your Philately Passport where this seal appears, e.g., '1', '2A'",
+  
+  "image": "",
+  "_comment_image": "Path to the seal image relative to public/. e.g., '/images/passport/PASS-XXXX/seal.webp'. Leave empty if no image.",
+  
+  "description": "",
+  "_comment_description": "Description of the seal, event, and its significance",
+  
+  "notes": ""
+  "_comment_notes": "Personal notes about this seal entry"
+}

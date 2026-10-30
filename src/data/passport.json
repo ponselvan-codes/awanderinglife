@@ -1,0 +1,72 @@
+[
+  {
+    "id": "PASS-0001",
+    "title": "National Philatelic Exhibition 2023",
+    "event": "INDIPEX 2023",
+    "venue": "Bharat Mandapam",
+    "city": "New Delhi",
+    "state": "Delhi",
+    "date": "2023-11-02",
+    "sealType": "Commemorative Seal",
+    "passportPage": "1",
+    "image": "/images/passport/PASS-0001/seal.webp",
+    "description": "DEMO DATA – replace with actual collection information. Commemorative seal from INDIPEX 2023, the national philatelic exhibition held at Bharat Mandapam, New Delhi.",
+    "notes": "DEMO DATA – Clear impression on page 1 of passport."
+  },
+  {
+    "id": "PASS-0002",
+    "title": "World Philatelic Congress",
+    "event": "Philatelia Bengaluru 2024",
+    "venue": "Bangalore International Exhibition Centre",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "date": "2024-02-14",
+    "sealType": "Special Event Seal",
+    "passportPage": "2",
+    "image": "/images/passport/PASS-0002/seal.webp",
+    "description": "DEMO DATA – replace with actual collection information. Special event seal from the Philatelia Bengaluru 2024 international philatelic congress.",
+    "notes": "DEMO DATA – Two-color seal, very decorative."
+  },
+  {
+    "id": "PASS-0003",
+    "title": "Tamil Nadu Philatelic Exhibition",
+    "event": "TANAPEX 2024",
+    "venue": "Chennai Trade Centre",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "date": "2024-04-20",
+    "sealType": "Exhibition Entry Seal",
+    "passportPage": "3",
+    "image": "/images/passport/PASS-0003/seal.webp",
+    "description": "DEMO DATA – replace with actual collection information. Entry seal from TANAPEX 2024, the Tamil Nadu Philatelic Exhibition held in Chennai.",
+    "notes": "DEMO DATA – Good impression, ink is even throughout."
+  },
+  {
+    "id": "PASS-0004",
+    "title": "Maharashtra State Philatelic Show",
+    "event": "MAHAPHILEX 2024",
+    "venue": "Pune Exhibition Ground",
+    "city": "Pune",
+    "state": "Maharashtra",
+    "date": "2024-07-15",
+    "sealType": "Commemorative Seal",
+    "passportPage": "4",
+    "image": "",
+    "description": "DEMO DATA – replace with actual collection information. Commemorative seal from MAHAPHILEX 2024 in Pune.",
+    "notes": "DEMO DATA – No image available yet. Image to be scanned and uploaded."
+  },
+  {
+    "id": "PASS-0005",
+    "title": "Rajasthan Philatelic Circle Meet",
+    "event": "Rajphilex 2024",
+    "venue": "Jaipur Philatelic Bureau",
+    "city": "Jaipur",
+    "state": "Rajasthan",
+    "date": "2024-09-05",
+    "sealType": "Special Cancellation",
+    "passportPage": "5",
+    "image": "/images/passport/PASS-0005/seal.webp",
+    "description": "DEMO DATA – replace with actual collection information. Special cancellation from the Rajasthan Philatelic Circle annual meet.",
+    "notes": "DEMO DATA – Unique Rajasthani motif in the seal design."
+  }
+]

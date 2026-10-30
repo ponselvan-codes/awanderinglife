@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- SEO Meta Tags -->
+    <title>India PPC & Philately Passport Collection</title>
+    <meta name="description" content="A personal collection of Indian Permanent Pictorial Cancellations (PPC) and Philately Passport stamps and seals. Browse by state, theme, year, and collection status." />
+    <meta name="keywords" content="India PPC, Permanent Pictorial Cancellation, Philately Passport, India Post, philately, stamps, cancellations, postal collection" />
+    <meta name="author" content="India PPC Collection" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="India PPC & Philately Passport Collection" />
+    <meta property="og:description" content="A personal collection of Indian Permanent Pictorial Cancellations (PPC) and Philately Passport stamps and seals." />
+    <meta property="og:type" content="website" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- GitHub Pages SPA redirect script -->
+    <script>
+      // This script handles GitHub Pages redirect for single-page apps.
+      // When a 404 occurs (direct URL navigation), GitHub Pages redirects to 404.html
+      // which redirects back here with the path encoded in the query string.
+      (function(l) {
+        if (l.search[1] === '/') {
+          var decoded = l.search.slice(1).split('&').map(function(s) {
+            return s.replace(/~and~/g, '&');
+          }).join('?');
+          window.history.replaceState(null, null,
+            l.pathname.slice(0, -1) + decoded + l.hash
+          );
+        }
+      }(window.location));
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

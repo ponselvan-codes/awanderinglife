@@ -1,0 +1,61 @@
+{
+  "id": "PPC-XXXX",
+  "_comment_id": "Sequential ID like PPC-0013. Use the next available number.",
+  
+  "title": "",
+  "_comment_title": "Descriptive title, e.g., 'Brihadeeswarar Temple – Permanent Pictorial Cancellation'",
+  
+  "postOffice": "",
+  "_comment_postOffice": "Full name of the post office, e.g., 'Thanjavur Head Post Office'",
+  
+  "district": "",
+  "_comment_district": "Revenue district name",
+  
+  "state": "",
+  "_comment_state": "Full state name, e.g., 'Tamil Nadu'",
+  
+  "pinCode": "",
+  "_comment_pinCode": "6-digit PIN code of the post office",
+  
+  "subject": "",
+  "_comment_subject": "Subject or full description of the PPC design",
+  
+  "theme": "",
+  "_comment_theme": "Theme category, e.g., 'Heritage', 'Religious', 'Monuments', 'Palaces', 'Nature', 'Wildlife', 'Culture'",
+  
+  "inaugurationDate": "",
+  "_comment_inaugurationDate": "Date the PPC was inaugurated, in YYYY-MM-DD format, e.g., '2023-04-05'",
+  
+  "requested": false,
+  "_comment_requested": "true if you have sent a request to the post office, false otherwise",
+  
+  "requestedDate": "",
+  "_comment_requestedDate": "Date you sent the request, in YYYY-MM-DD format. Leave empty string if not requested.",
+  
+  "received": false,
+  "_comment_received": "true if you have received the PPC, false otherwise",
+  
+  "receivedDate": "",
+  "_comment_receivedDate": "Date you received the PPC, in YYYY-MM-DD format. Leave empty string if not received.",
+  
+  "trackingNumber": "",
+  "_comment_trackingNumber": "Postal tracking number if available, e.g., 'EM123456789IN'. Leave empty if none.",
+  
+  "requestMethod": "",
+  "_comment_requestMethod": "How you sent the request, e.g., 'Post', 'Email', 'In Person'. Leave empty if not applicable.",
+  
+  "primaryImage": "",
+  "_comment_primaryImage": "Path to the PPC cancellation image relative to public/. e.g., '/images/ppc/PPC-XXXX/ppc.webp'. Leave empty if no image.",
+  
+  "postcardFrontImage": "",
+  "_comment_postcardFrontImage": "Path to postcard front image. e.g., '/images/ppc/PPC-XXXX/front.webp'. Leave empty if none.",
+  
+  "postcardBackImage": "",
+  "_comment_postcardBackImage": "Path to postcard back image. e.g., '/images/ppc/PPC-XXXX/back.webp'. Leave empty if none.",
+  
+  "description": "",
+  "_comment_description": "Detailed description of the PPC, its design, historical context, etc.",
+  
+  "notes": ""
+  "_comment_notes": "Personal collection notes, condition remarks, etc."
+}
