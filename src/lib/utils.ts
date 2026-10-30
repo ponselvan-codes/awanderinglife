@@ -5,6 +5,37 @@ import type { PPCRecord, PassportRecord, CollectionStats, PPCStatus } from '../t
 import ppcData from '../data/ppc.json';
 import passportData from '../data/passport.json';
 
+type ImportedPPCRecord = (typeof ppcData)[number];
+
+function normalizePPCRecord(record: ImportedPPCRecord): PPCRecord {
+  return {
+    id: typeof record.id === 'number'
+      ? `PPC-${String(record.id).padStart(4, '0')}`
+      : record.id,
+    title: record.title ?? '',
+    postOffice: record.postOffice ?? '',
+    district: record.district ?? '',
+    state: record.state ?? '',
+    pinCode: record.pinCode ?? '',
+    subject: record.subject ?? '',
+    theme: record.theme ?? '',
+    inaugurationDate: record.inaugurationDate ?? '',
+    requested: record.requested ?? false,
+    requestedDate: record.requestedDate ?? '',
+    received: record.received ?? false,
+    receivedDate: record.receivedDate ?? '',
+    trackingNumber: record.trackingNumber ?? '',
+    requestMethod: record.requestMethod ?? '',
+    primaryImage: record.primaryImage ?? '',
+    postcardFrontImage: record.postcardFrontImage ?? '',
+    postcardBackImage: record.postcardBackImage ?? '',
+    description: record.description ?? '',
+    notes: record.notes ?? '',
+  };
+}
+
+const ppcRecords = ppcData.map(normalizePPCRecord);
+
 export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
 }
@@ -38,11 +69,11 @@ export function getStatusLabel(status: PPCStatus): string {
 }
 
 export function getAllPPCs(): PPCRecord[] {
-  return ppcData as PPCRecord[];
+  return ppcRecords;
 }
 
 export function getPPCById(id: string): PPCRecord | undefined {
-  return (ppcData as PPCRecord[]).find((p) => p.id === id);
+  return ppcRecords.find((p) => p.id === id);
 }
 
 export function getAllPassports(): PassportRecord[] {
